@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentacion", "1 Presentacion", "{FA1349A0-569A-4B9E-8918-361D6227018D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estella.ExamenTecnico.Api", "Presentacion\Estella.ExamenTecnico.Api\Estella.ExamenTecnico.Api.csproj", "{BD9EED92-D3FE-45FA-A2CD-0C72A6411B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Aplicacion", "2 Aplicacion", "{8990AA46-DD66-495B-8B41-FC1BBB0A8D0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Dominio", "3 Dominio", "{E4C5B66B-908B-4A32-889F-77B470284858}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Infraestructura", "4 Infraestructura", "{501D085E-F2C2-45B4-B402-C3B50EDC9F7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Vertical", "5 Vertical", "{FBEBCEE3-8364-4A9C-A64C-9179BE2F2B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estela.ExamenTecnico.Dominio", "Dominio\Estela.ExamenTecnico.Dominio\Estela.ExamenTecnico.Dominio.csproj", "{F5A8553E-368A-4554-9F2F-A1C147F23A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estela.ExamenTecnico.Models", "Vertical\Estela.ExamenTecnico.Models\Estela.ExamenTecnico.Models.csproj", "{443CD76A-0779-4554-9DE7-086944AEF8DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estela.ExamenTecnico.DataAccess", "Infraestructura\Estela.ExamenTecnico.DataAccess\Estela.ExamenTecnico.DataAccess.csproj", "{744551A9-9572-4E88-AF45-BCB7F9772231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estela.ExamenTecnico.Aplicacion", "Aplicacion\Estela.ExamenTecnico.Aplicacion\Estela.ExamenTecnico.Aplicacion.csproj", "{771C6611-3463-4FFA-8A78-B551EFB4E556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estela.ExamenTecnico.Aplicacion.Tests", "Aplicacion\Estela.ExamenTecnico.Aplicacion.Tests\Estela.ExamenTecnico.Aplicacion.Tests.csproj", "{9FC5F592-C602-429D-9716-7EE79F075C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9EED92-D3FE-45FA-A2CD-0C72A6411B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9EED92-D3FE-45FA-A2CD-0C72A6411B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9EED92-D3FE-45FA-A2CD-0C72A6411B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9EED92-D3FE-45FA-A2CD-0C72A6411B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A8553E-368A-4554-9F2F-A1C147F23A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A8553E-368A-4554-9F2F-A1C147F23A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A8553E-368A-4554-9F2F-A1C147F23A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A8553E-368A-4554-9F2F-A1C147F23A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443CD76A-0779-4554-9DE7-086944AEF8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443CD76A-0779-4554-9DE7-086944AEF8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443CD76A-0779-4554-9DE7-086944AEF8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443CD76A-0779-4554-9DE7-086944AEF8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744551A9-9572-4E88-AF45-BCB7F9772231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744551A9-9572-4E88-AF45-BCB7F9772231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744551A9-9572-4E88-AF45-BCB7F9772231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744551A9-9572-4E88-AF45-BCB7F9772231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771C6611-3463-4FFA-8A78-B551EFB4E556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771C6611-3463-4FFA-8A78-B551EFB4E556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771C6611-3463-4FFA-8A78-B551EFB4E556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771C6611-3463-4FFA-8A78-B551EFB4E556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC5F592-C602-429D-9716-7EE79F075C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC5F592-C602-429D-9716-7EE79F075C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC5F592-C602-429D-9716-7EE79F075C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC5F592-C602-429D-9716-7EE79F075C62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD9EED92-D3FE-45FA-A2CD-0C72A6411B4F} = {FA1349A0-569A-4B9E-8918-361D6227018D}
+		{F5A8553E-368A-4554-9F2F-A1C147F23A0E} = {E4C5B66B-908B-4A32-889F-77B470284858}
+		{443CD76A-0779-4554-9DE7-086944AEF8DB} = {FBEBCEE3-8364-4A9C-A64C-9179BE2F2B26}
+		{744551A9-9572-4E88-AF45-BCB7F9772231} = {501D085E-F2C2-45B4-B402-C3B50EDC9F7D}
+		{771C6611-3463-4FFA-8A78-B551EFB4E556} = {8990AA46-DD66-495B-8B41-FC1BBB0A8D0E}
+		{9FC5F592-C602-429D-9716-7EE79F075C62} = {8990AA46-DD66-495B-8B41-FC1BBB0A8D0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DE044E6-0BF0-4D84-8C01-9FA465ADDD1C}
+	EndGlobalSection
+EndGlobal
