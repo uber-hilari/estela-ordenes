@@ -1,0 +1,6 @@
+@Estella.ExamenTecnico.Api_HostAddress = http://localhost:5029
+
+GET {{Estella.ExamenTecnico.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
